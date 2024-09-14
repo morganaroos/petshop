@@ -167,13 +167,3 @@ button.btn-danger {
     padding: 5px 15px;
     font-size: 0.9rem;
 }
-
-/* Estilo específico para links do Cadastro de Pet */
-.nav-link[href="cadastro_pet.html"] {
-    font-weight: bold;
-    color: #8A2BE2;
-}
-
-.nav-link[href="cadastro_pet.html"]:hover {
-    color: #6e22b5;
-}
