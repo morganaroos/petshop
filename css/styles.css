@@ -1,0 +1,169 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Títulos */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilos do Cabeçalho */
+header .logo img {
+    max-width: 150px;
+}
+
+header .nav-link {
+    font-weight: bold;
+    color: #555;
+    padding: 5px 10px;
+}
+
+header .nav-link:hover, .nav-link.active {
+    color: #8A2BE2;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.icons img {
+    margin-left: 10px;
+}
+
+/* Estilos do Carrossel (Home Page) */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Estilos das Cartas de Produtos */
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilo do botão "Adicionar ao Carrinho" */
+.btn-primary {
+    background-color: #8A2BE2;
+    border-color: #8A2BE2;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #6e22b5;
+    border-color: #6e22b5;
+}
+
+/* Estilo do campo de quantidade */
+input[type="number"] {
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    margin-left: 15px;
+    color: white;
+}
+
+footer a:hover {
+    color: #8A2BE2;
+}
+
+/* Estilo para a lista de produtos no carrinho */
+.d-flex {
+    align-items: center;
+}
+
+.border-bottom {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+button.btn-danger {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+}
+
+/* Estilo para o resumo do carrinho */
+.border {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+/* Estilo para o formulário de contato */
+form .form-control {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+/* Estilo para o botão de envio */
+form button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #8A2BE2;
+    border-color: #8A2BE2;
+}
+
+form button:hover {
+    background-color: #6e22b5;
+}
+
+/* Estilo para as informações de contato */
+h5 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* Estilo dos inputs de login */
+form .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Estilo do botão de login */
+form button {
+    background-color: #8A2BE2;
+    border-color: #8A2BE2;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+form button:hover {
+    background-color: #6e22b5;
+}
+
+/* Estilo das opções de acesso */
+.text-center a {
+    color: #8A2BE2;
+    font-weight: bold;
+}
+
+.text-center a:hover {
+    color: #6e22b5;
+}

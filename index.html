@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script> <!-- JavaScript para navegação -->
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header class="p-3 bg-light shadow-sm">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo/logo_petshop.png" alt="Logo Petshop" width="150">
+            </a>
+        </div>
+        <!-- Navegação -->
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="promocoes.html">Promoções</a></li>
+                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Ícones -->
+        <div class="icons">
+            <a href="carrinho.html"><img src="img/icones/icone_carrinho_roxo.png" alt="Carrinho" width="30"></a>
+            <a href="login.html"><img src="img/icones/icone_user.png" alt="Login" width="30"></a>
+        </div>
+    </div>
+</header>
+
+<!-- Carrossel -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/home/carrossel/carrossel_slide1.jpg" class="d-block w-100" alt="Promoção 1">
+        </div>
+        <div class="carousel-item">
+            <img src="img/home/carrossel/carrossel_slide2.jpg" class="d-block w-100" alt="Promoção 2">
+        </div>
+        <div class="carousel-item">
+            <img src="img/home/carrossel/carrossel_slide3.jpg" class="d-block w-100" alt="Promoção 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </button>
+</div>
+
+<!-- Seção Mais Vistos -->
+<section class="container mt-5">
+    <h2 class="text-center">Mais Vistos</h2>
+    <div class="row text-center mt-4">
+        <div class="col-md-3">
+            <img src="img/home/mais_vistos/mais_vistos_racao_seca.jpg" alt="Ração Seca" class="img-fluid">
+            <p>Ração Seca</p>
+        </div>
+        <div class="col-md-3">
+            <img src="img/home/mais_vistos/mais_vistos_banho_tosa.jpg" alt="Banho e Tosa" class="img-fluid">
+            <p>Banho e Tosa</p>
+        </div>
+        <div class="col-md-3">
+            <img src="img/home/mais_vistos/mais_vistos_higiene.jpg" alt="Higiene" class="img-fluid">
+            <p>Higiene</p>
+        </div>
+        <div class="col-md-3">
+            <img src="img/home/mais_vistos/mais_vistos_banho_e_tosa.jpg" alt="Banho e Tosa Especial" class="img-fluid">
+            <p>Banho e Tosa Especial</p>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de Marcas Parceiras -->
+<section class="container mt-5">
+    <h2 class="text-center">Melhores Marcas</h2>
+    <div class="row text-center mt-4">
+        <div class="col-md-2">
+            <img src="img/home/marcas/marca_whiskas.png" alt="Whiskas" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+            <img src="img/home/marcas/marca_purina.png" alt="Purina" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+            <img src="img/home/marcas/marca_premier.png" alt="Premier" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+            <img src="img/home/marcas/marca_spike.png" alt="Spike" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+            <img src="img/home/marcas/marca_selections.png" alt="Selections" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white mt-5 p-4 text-center">
+    <p>&copy; 2024 PetShop Ltd. Todos os direitos reservados.</p>
+    <a href="#"><img src="img/icones/icone_facebook.png" alt="Facebook" width="30"></a>
+    <a href="#"><img src="img/icones/icone_instagram.png" alt="Instagram" width="30"></a>
+    <a href="#"><img src="img/icones/icone_linkedin.png" alt="LinkedIn" width="30"></a>
+</footer>
+
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
