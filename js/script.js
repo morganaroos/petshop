@@ -1,13 +1,16 @@
-// script.js
-
 document.addEventListener("DOMContentLoaded", function() {
-    // Marcar o link da página atual como ativo
-    const links = document.querySelectorAll(".nav-link");
-    const currentPage = window.location.pathname.split("/").pop();
+    // Obtém o caminho da URL atual
+    const currentLocation = window.location.pathname;
 
-    links.forEach(link => {
-        if (link.getAttribute("href") === currentPage) {
-            link.classList.add("active");
+    // Seleciona todos os links de navegação
+    const menuItems = document.querySelectorAll('.nav-link');
+
+    // Itera sobre cada link de navegação
+    menuItems.forEach(item => {
+        // Verifica se o href do link corresponde ao caminho atual da página
+        if (item.getAttribute('href') === currentLocation) {
+            // Adiciona a classe "active" ao link correspondente
+            item.classList.add('active');
         }
     });
 });
