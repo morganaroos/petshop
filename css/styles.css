@@ -27,9 +27,14 @@ header .nav-link {
 
 header .nav-link:hover,
 .nav-link.active {
-    color: #8A2BE2;
+    color: #8A2BE2;  /* Cor roxa para o link ativo */
     background-color: #f0f0f0;
     border-radius: 5px;
+}
+
+/* Evitar que links visitados fiquem roxos */
+a:visited {
+    color: inherit; /* Mantém a cor normal do link */
 }
 
 .icons img {
