@@ -167,3 +167,9 @@ form button:hover {
 .text-center a:hover {
     color: #6e22b5;
 }
+
+/* Destacar o link Cadastro de Pet no menu */
+.nav-link[href="cadastro_pet.html"] {
+    font-weight: bold;
+    color: #8A2BE2; /* Coloque a cor que preferir */
+}
