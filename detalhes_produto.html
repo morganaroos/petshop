@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop - Detalhes do Produto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header class="p-3 bg-light shadow-sm">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo/logo_petshop.png" alt="Logo Petshop" width="150">
+            </a>
+        </div>
+        <!-- Navegação -->
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="promocoes.html">Promoções</a></li>
+                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Ícones -->
+        <div class="icons">
+            <a href="carrinho.html"><img src="img/icones/icone_carrinho_roxo.png" alt="Carrinho" width="30"></a>
+            <a href="login.html"><img src="img/icones/icone_user.png" alt="Login" width="30"></a>
+        </div>
+    </div>
+</header>
+
+<!-- Seção de Detalhes do Produto -->
+<main class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="img/produtos/produto_gran_plus_choice.jpg" class="img-fluid" alt="Gran Plus Choice">
+        </div>
+        <div class="col-md-6">
+            <h2>Gran Plus Choice</h2>
+            <p>Preço: <strong>R$118,90</strong></p>
+            <p>Descrição: Ração premium indicada para cães adultos, sabor carne, com nutrientes balanceados para uma dieta saudável e equilibrada.</p>
+            <p>Avaliação: ⭐⭐⭐⭐☆ (4.5 de 5)</p>
+            <p>Quantidade disponível: 15 unidades</p>
+
+            <!-- Botão de Adicionar ao Carrinho -->
+            <div class="d-flex align-items-center mt-3">
+                <button class="btn btn-primary me-3">Add ao Carrinho</button>
+                <input type="number" min="1" max="15" value="1" class="form-control" style="width: 70px;">
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white mt-5 p-4 text-center">
+    <p>&copy; 2024 PetShop Ltd. Todos os direitos reservados.</p>
+    <a href="#"><img src="img/icones/icone_facebook.png" alt="Facebook" width="30"></a>
+    <a href="#"><img src="img/icones/icone_instagram.png" alt="Instagram" width="30"></a>
+    <a href="#"><img src="img/icones/icone_linkedin.png" alt="LinkedIn" width="30"></a>
+</footer>
+
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

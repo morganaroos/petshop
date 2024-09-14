@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop - Cadastro de Cliente</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header class="p-3 bg-light shadow-sm">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo/logo_petshop.png" alt="Logo Petshop" width="150">
+            </a>
+        </div>
+        <!-- Navegação -->
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="promocoes.html">Promoções</a></li>
+                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Ícones -->
+        <div class="icons">
+            <a href="carrinho.html"><img src="img/icones/icone_carrinho_roxo.png" alt="Carrinho" width="30"></a>
+            <a href="login.html"><img src="img/icones/icone_user.png" alt="Login" width="30"></a>
+        </div>
+    </div>
+</header>
+
+<!-- Seção de Cadastro de Cliente -->
+<main class="container mt-5">
+    <h2 class="text-center">Cadastro de Cliente</h2>
+
+    <!-- Formulário de Cadastro de Cliente -->
+    <form action="#" method="post">
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
+        </div>
+        <div class="mb-3">
+            <label for="senha" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="senha" placeholder="Crie uma senha" required>
+        </div>
+        <div class="mb-3">
+            <label for="confirmacao_senha" class="form-label">Confirme sua Senha</label>
+            <input type="password" class="form-control" id="confirmacao_senha" placeholder="Confirme a senha" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+</main>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white mt-5 p-4 text-center">
+    <p>&copy; 2024 PetShop Ltd. Todos os direitos reservados.</p>
+    <a href="#"><img src="img/icones/icone_facebook.png" alt="Facebook" width="30"></a>
+    <a href="#"><img src="img/icones/icone_instagram.png" alt="Instagram" width="30"></a>
+    <a href="#"><img src="img/icones/icone_linkedin.png" alt="LinkedIn" width="30"></a>
+</footer>
+
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
